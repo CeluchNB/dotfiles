@@ -1,7 +1,11 @@
 
 brew "neovim"
-brew "ghostty"
+cask "ghostty"
 brew "git"
 brew "gh"
 brew "tmux"
 brew "jq"
+brew "starship"
+brew "bat"
+brew "ripgrep"
+brew "git-delta"

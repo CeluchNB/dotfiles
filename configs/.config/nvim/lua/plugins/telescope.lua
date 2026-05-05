@@ -10,6 +10,9 @@ return {
       local telescope = require("telescope")
 
       telescope.setup({
+        defaults = {
+          layout_strategy = "center",
+        },
         pickers = {
           find_files = {
             hidden = true,
